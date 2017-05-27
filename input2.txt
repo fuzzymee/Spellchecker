@@ -1,0 +1,34 @@
+what-in-the-world
+that's
+shouldn't
+they've
+I'd
+he'll
+hello'governor
+this'is'it's
+that.
+is?
+punctual!
+we're
+*#weird&#$^words
+taking
+breathtakingly
+Baker's
+baked
+baking
+deliciously
+brokered
+mispelled
+ytisd
+badwrd
+
+Hello my name is Ryan Mee. This is my 4th project in CSC 316. Here we have a spell checker.
+It will read in a dictionary file and use it to create a hash table. The input file will then
+be spell checked against that hash table and the results will be printed. Now I'm just writing
+words that can be checked. This is for testing purposes so hopefully there are enough examples
+so that there will be no suprises come grading. Let's test some apostrophes. The baker's cake
+was baked in the oven until the clerk's customer was satisfied. Not all of these words will
+be correctly checked of course. A word such as "freeer" is misspelled. But the checker will convert
+it to "free" causing it to be missed. Many more words will be identified as misspelled when they are
+in fact correct. That is because not all of the suffix rules are accounted for. This is a very
+rudimentary program. Good luck!

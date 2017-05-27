@@ -1,0 +1,25 @@
+-----------------
+Misspelled Words:
+-----------------
+mispelled
+ytisd
+badwrd
+Mee
+CSC
+316
+suprises
+satisfied
+misspelled
+identified
+misspelled
+program
+
+--------------------
+Project Information:
+--------------------
+Dictionary Entries: 25144
+Total Words Checked: 195
+Total Words Misspelled: 12
+Total Probes: 392
+Average Probes per Word: 2.01025641025641
+Average Probes per lookUp: 1.4254545454545455

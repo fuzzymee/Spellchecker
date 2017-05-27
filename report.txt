@@ -1,0 +1,18 @@
+Project 4: Spell Checker
+Author: Ryan Mee
+
+Report:
+    For this project I chose to implement a hash function that utilized the
+    golden ratio method we discussed in class along with a polynomial hash code.
+    This ensures that words with the same letters in different orders do not
+    hash to the same value. Using the Golden Ratio will help keep the entries
+    uniformly spread across the hash table.
+    
+    When the dictionary file is scanned each entry is stored as a string in an input 
+    buffer while the number of entries is tracked. The hash table is created as an 
+    array of Key objects with a size 1.3x that of the dictionary entries total. Key
+    objects are linked lists used to store all entries that hash to that value.
+    This is the method I used for collision resolution. When an entry is hashed
+    to the same value as a previous entry, it is inserted at the end of that linked
+    list. The first entry hashed to that value will become the head of the linked list.
+    This creates buckets at each array index that hold all entries with that hash value.
